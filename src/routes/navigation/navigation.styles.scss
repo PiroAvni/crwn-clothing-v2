@@ -7,9 +7,18 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    display: flex;
+    width: 80%;
     padding: 25px;
+    .logo-title{
+      font-size:1.5rem;
+      justify-content: center;
+      align-items: center;
+      padding-left: 1rem;
+      margin:.5rem;
+    }
   }
+  
 
   .nav-links-container {
     width: 50%;
