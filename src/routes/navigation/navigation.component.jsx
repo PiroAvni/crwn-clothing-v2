@@ -10,7 +10,7 @@ const Navigation = () => {
     <Fragment>
       <div className='navigation'>
         <Link className='logo-container' to='/'>
-          <CrwnLogo className='logo' />
+          <CrwnLogo className='logo' /><h1 className= "logo-title">Crown Clothing Co.</h1>
         </Link>
         <div className='nav-links-container'>
           <Link className='nav-link' to='/shop'>

@@ -7,10 +7,19 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    width: 50%;
     padding: 25px;
+    display:flex;
+    flex-direction: row;
+    
   }
-
+  .logo-title{
+    font-size:1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    margin:.5rem;
+  }
   .nav-links-container {
     width: 50%;
     height: 100%;
